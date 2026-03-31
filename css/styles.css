@@ -79,7 +79,7 @@ a:hover {
 
 .site-header .logo img {
   display: block;
-  height: clamp(6rem, 15vw, 8.25rem);
+  height: clamp(3rem, 8vw, 4rem);
   width: auto;
   max-width: min(36rem, 90vw);
   object-fit: contain;
