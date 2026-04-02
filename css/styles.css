@@ -633,6 +633,52 @@ a:hover {
   border-bottom-color: var(--accent);
 }
 
+.contact-info__social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-info__social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  color: #ffffff;
+  border: 1.5px solid rgba(255, 255, 255, 0.28);
+  text-decoration: none;
+  border-bottom: none;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease,
+    transform 0.15s ease;
+}
+
+.contact-info__social-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(255, 255, 255, 0.06);
+  transform: translateY(-1px);
+}
+
+.contact-info__social-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.contact-info__social-link svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.contact-info__social-link .contact-info__social-icon--instagram {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .page__header {
   margin-bottom: 2.5rem;
 }
